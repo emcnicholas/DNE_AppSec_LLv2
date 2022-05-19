@@ -26,9 +26,8 @@ provider "kubectl" {
   config_path = "~/.kube/config"
 }
 provider "securecn" {
-  access_key = var.secure_cn_access_key
-  secret_key = var.secure_cn_secret_key
-  //server_url = var.secure_cn_server_url
+  access_key = var.panoptica_access_key
+  secret_key = var.panoptica_secret_key
 }
 
 // Modules

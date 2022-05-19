@@ -6,8 +6,8 @@ variable "panoptica_access_key" {
   type        = string
   sensitive   = true
 }
-variable "secure_cn_secret_key" {
-  description = "Secure CN Secret Key"
+variable "panoptica_secret_key" {
+  description = "Panoptica Secret Key"
   type        = string
   sensitive   = true
 }
