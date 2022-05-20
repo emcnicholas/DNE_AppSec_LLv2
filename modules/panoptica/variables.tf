@@ -1,14 +1,4 @@
 // Panoptica Variables
-variable "panoptica_access_key" {
-  description = "Panoptica Access Key"
-  type        = string
-  sensitive   = true
-}
-variable "secure_cn_secret_key" {
-  description = "Secure CN Secret Key"
-  type        = string
-  sensitive   = true
-}
 variable "environment_name" {
   description = "Name assigned to the environment"
   type        = string

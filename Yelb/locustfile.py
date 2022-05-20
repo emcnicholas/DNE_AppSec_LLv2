@@ -1,4 +1,6 @@
-# Run "pip install locust" for library
+################################################
+# Run "pip install locust" before running python
+################################################
 from locust import HttpUser, task, between
 
 
